@@ -1,0 +1,1 @@
+export { GoogleStorageGeneric } from './GoogleStorageGeneric'
