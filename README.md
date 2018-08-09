@@ -19,11 +19,12 @@ $ npm install --save @fabrix/generics-google-storage
 
 ```js
 // config/generics.ts
+import { GoogleStorageGeneric } from '@fabrix/generics-google-storage'
 export const generics = {
   // make the key google_storage, alternatively make the key data_store_provider to be the default data store provider in many spools
   google_storage: {
-    adapter: require('@fabrix/generics-google-storage').GoogleStorageGeneric,
-    options: {
+    adapter: GoogleStorageGeneric,
+    config: {
       project_id: process.env.GLCOUD_PROJECT_ID,
       key_filename: process.env.GCLOUD_KEY_FILENAME, // NOTE: Must Be Fully Resolved Path
       bucket: process.env.GCLOUD_BUCKET,
