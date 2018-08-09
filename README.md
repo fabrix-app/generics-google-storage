@@ -1,9 +1,11 @@
 # generics-google-storage
 
+[![Gitter][gitter-image]][gitter-url]
 [![NPM version][npm-image]][npm-url]
-[![Build status][ci-image]][ci-url]
+[![Build Status][ci-image]][ci-url]
+[![Test Coverage][coverage-image]][coverage-url]
 [![Dependency Status][daviddm-image]][daviddm-url]
-[![Code Climate][codeclimate-image]][codeclimate-url]
+[![Follow @FabrixApp on Twitter][twitter-image]][twitter-url]
 
 Generic Data Store for Google Cloud through Spool-generics.
 
